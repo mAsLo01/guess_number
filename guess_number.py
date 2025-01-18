@@ -7,6 +7,6 @@ while True:
         print ('Ваше число больше того, что загадано')
     elif guess<number:
         print('Ваше число меньше того, что загадано')
-    else:
+    elif guess == number:
         print('Отличная интуиция! Вы угадали число :)')
         break
